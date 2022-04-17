@@ -1,7 +1,22 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+    margin: auto;
+    max-width: 38rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+#videoViewport {
+    position: relative;
+    width: 100%;
+}
+#top-drag-container {
+    -webkit-app-region: drag;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2rem;
 }
